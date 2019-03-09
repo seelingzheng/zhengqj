@@ -19,6 +19,13 @@
       <a
         class="item"
         target="_blank"
+        @mouseover="showBoxs('gisgallery')"
+        @mouseout="hideBoxs('gisgallery')"
+        href="https://gisgallery.zhengqj.cc"
+      >GIS 案例</a>
+      <a
+        class="item"
+        target="_blank"
         @mouseover="showBoxs('blog')"
         @mouseout="hideBoxs('blog')"
         href="https://www.jianshu.com/u/90d57601c766"
